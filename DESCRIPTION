@@ -1,0 +1,26 @@
+Package: mcMCMCglmm
+Title: Multi-core MCMCglmm models
+Version: 0.2.4
+Authors@R: person("Joel"    , "Pick"           , email = "joel.l.pick@gmail.com"             , role = c("aut","cre"))
+Description: R package to provide wrapper functions for the MCMCglmm R package, that allow multi-chain models to be run in parallel.
+URL: https://github.com/joelpick/mcMCMCglmm
+BugReports: https://github.com/joelpick/mcMCMCglmm/issues
+Depends:
+    R (>= 4.3.0)
+License: MIT + file LICENSE
+LazyData: true
+Imports:
+    graphics,
+    stats,
+    MCMCpack,
+    parallel,
+    coda,
+    MCMCglmm,
+RoxygenNote: 7.3.2
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat,
+    scales,
+VignetteBuilder: knitr
+Encoding: UTF-8
