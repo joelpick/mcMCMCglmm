@@ -107,7 +107,7 @@ results_out<- function(x, pMCMC=FALSE){
 #' @param random logical: should the random effects be summarised
 #' @param ... Additional arguments
 #' @details Provides the same output as MCMCglmm summary function with the addition of Rhat
-#' 
+#' @export
 
 summary.mcMCMCglmm <- function (object, random = FALSE, ...){
 
